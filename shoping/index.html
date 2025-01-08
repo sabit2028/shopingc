@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <div class="cart-count">Cart: <span id="cart-count">0</span></div>
+    </header>
+    <main>
+        <section id="product-list" class="product-list"></section>
+        <section id="cart" class="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div class="cart-total">Total: $<span id="cart-total">0.00</span></div>
+            <button id="clear-cart">Clear Cart</button>
+            <div class="cart-summary">
+                Total Products: <span id="total-products">0</span><br>
+                Total Price: $<span id="total-price">0.00</span>
+            </div>
+        </section>
+                
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
